@@ -37,7 +37,7 @@ app.get("/reservation", function(req, res) {
 });
 
 app.get("/table", function(req, res) {
-  res.sendFile(path.join(__dirname, "table.html"));
+  res.sendFile(path.join(__dirname, "all.html"));
 });
 // Displays all reservations
 app.get("/api/table", function(req, res) {
