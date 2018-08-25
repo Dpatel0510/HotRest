@@ -33,7 +33,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/reservation", function(req, res) {
-  res.sendFile(path.join(__dirname, "reservation.html"));
+  res.sendFile(path.join(__dirname, "add.html"));
 });
 
 app.get("/table", function(req, res) {
